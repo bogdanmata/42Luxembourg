@@ -12,6 +12,7 @@ cat /etc/passwd \
 | sort -r \
 | awk -v l1="$FT_LINE1" -v l2="$FT_LINE2" 'NR >= l1 && NR <= l2' \
 | awk '{ s = s ? s", "$0 : $0 } END { printf "%s.", s }'
+| tr -d '\n'
 EOF
 
 chmod +x r_dwssap.sh

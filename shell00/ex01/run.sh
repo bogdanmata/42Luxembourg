@@ -8,4 +8,4 @@ chmod 455 testShell00
 touch -t 202506012342 testShell00
 ls -l
 tar -cf testShell00.tar testShell00
-rm testShell00
+rm -f testShell00

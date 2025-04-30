@@ -27,7 +27,7 @@ ln test3 test5
 touch -t 202506012344 test5
 
 ln -s test0 test6
-touch -t 202506012220 test6
+touch -h -t 202506012220 test6
 
 ls -l
 

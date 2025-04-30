@@ -4,7 +4,7 @@
 rm -f print_groups.sh
 
 cat > print_groups.sh << 'EOF'
-id -Gn "$FT_USER" | tr ' ' ','
+id -Gn "$FT_USER" | tr ' ' ',' | tr -d '\n'
 EOF
 
 chmod +x print_groups.sh

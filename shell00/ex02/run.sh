@@ -15,11 +15,11 @@ mkdir test2
 chmod 504 test2
 touch -t 202506012245 test2
 
-dd if=/dev/zero of=test3 bs=1 count=2
+dd if=/dev/zero of=test3 bs=1 count=1
 chmod 404 test3
 touch -t 202506012344 test3
 
-dd if=/dev/zero of=test4 bs=1 count=1
+dd if=/dev/zero of=test4 bs=1 count=2
 chmod 641 test4
 touch -t 202506012343 test4
 

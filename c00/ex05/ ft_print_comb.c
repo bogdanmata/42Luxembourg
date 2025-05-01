@@ -2,11 +2,11 @@
 
 void ft_putchar(char c);
 void print_number(int *arr, int n);
-void ft_print_combn(void);
+void ft_print_comb(void);
 
 int main()
 {
-    ft_print_combn();
+    ft_print_comb();
     return 0;
 }
 
@@ -21,7 +21,7 @@ void print_number(int *arr, int n)
         ft_putchar(arr[i] + '0');
 }
 
-void ft_print_combn(void)
+void ft_print_comb(void)
 {
     int comb[10];
 

@@ -10,6 +10,8 @@ int main() {
     ft_div_mod(a, b, div, mod);
 
     printf("%d %d %d %d\n", a, b, *div, *mod);
+
+    return 0;
 }
 
 void ft_div_mod(int a, int b, int *div, int *mod) {
